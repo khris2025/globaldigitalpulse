@@ -30,6 +30,9 @@ use App\Http\Controllers\Admin\miningController;
 
 
 
+
+
+
 Route::get('/', [Homepage::class, 'Homepage'])->name('Homepage');
 
 Route::get('/register', [AuthController::class, 'registerPage'])->name('register');
